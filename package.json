@@ -1,0 +1,24 @@
+{
+  "name": "alphapost-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A feature-complete clone of alphapost.io: social media automation + AI content SaaS (16 tools + community). Zero runtime dependencies.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [
+    "social-media",
+    "automation",
+    "ai",
+    "blogger",
+    "gemini",
+    "clone"
+  ],
+  "license": "MIT"
+}
